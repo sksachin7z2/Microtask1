@@ -3,7 +3,7 @@
 
 # This API is used to store, get, update and delete user information in a dummy/temporary database
 
-To store the user info in dummy db
+# To store the user info in dummy db
 
 Method: POST
 
@@ -16,7 +16,7 @@ Body parameter(in JSON)
 4. phone
 5. city
 
-To get the information of a particular userName
+# To get the information of a particular userName
 
 Method: POST
 
@@ -25,7 +25,7 @@ Endpoint: '/api/user/getuser'
 Body parameter(in JSON)
 1. userName
 
-To get the information of all user
+# To get the information of all user
 
 Method: GET
 
@@ -34,7 +34,7 @@ Endpoint: '/api/user/getall'
 Body parameter(in JSON)
 1. None
 
-To update info of a particular userName
+# To update info of a particular userName
 
 Method: PUT
 
@@ -47,7 +47,7 @@ Body parameter(in JSON)
 4. phone
 5. city
 
-To remove info of a particular userName
+# To remove info of a particular userName
 
 Method: DELETE
 
@@ -56,7 +56,7 @@ Endpoint: '/api/user/remove/{userName}'
 Body parameter(in JSON)
 1. None
 
-To remove all entries
+# To remove all entries
 
 Method: DELETE
 
