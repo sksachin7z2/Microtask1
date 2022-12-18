@@ -13,7 +13,7 @@ Endpoint: '/api/user/usercreate'
 Body parameter(in JSON)
 1. name
 2. email
-3. userName
+3. userName (should be given)
 4. phone
 5. city
 
