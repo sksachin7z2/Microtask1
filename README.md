@@ -23,7 +23,7 @@ Method: POST
 Endpoint: '/api/user/getuser'
 
 Body parameter(in JSON)
-1.userName
+1. userName
 
 To get the information of all user
 
@@ -32,7 +32,7 @@ Method: GET
 Endpoint: '/api/user/getall'
 
 Body parameter(in JSON)
-None
+1. None
 
 To update info of a particular userName
 
@@ -41,11 +41,11 @@ Method: PUT
 Endpoint: '/api/user/update/{userName}'
 
 Body parameter(in JSON)
-name
-email
-userName
-phone
-city
+1. name
+2. email
+3. userName
+4. phone
+5. city
 
 To remove info of a particular userName
 
@@ -54,7 +54,7 @@ Method: DELETE
 Endpoint: '/api/user/remove/{userName}'
 
 Body parameter(in JSON)
-None
+1. None
 
 To remove all entries
 
@@ -63,4 +63,4 @@ Method: DELETE
 Endpoint: '/api/user/removeall'
 
 Body parameter(in JSON)
-None
+1. None
