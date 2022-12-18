@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/style.css">
+    <title>Microtask1</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="heading">
+                <h1>Welcome, This API is build for MicroTask 1</h1>
+            </div>
+            <div>
+                <h3>This API is used to store, get, update and delete user information in a dummy/temporary database</h3>
+            </div>
+            <div>
+                <div class="card my">
+                    <h3>To store the user info in dummy db</h3>
+                    <div>
+                        <h4>Method: POST</h4>
+                        <h3>Endpoint: '/api/user/usercreate'</h3>
+                    </div>
+                    <div>
+                        <h4>Body parameter(in JSON)</h4>
+                        <div>
+                            <ul>
+                                <li>name</li>
+                                <li>email</li>
+                                <li>userName</li>
+                                <li>phone</li>
+                                <li>city</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my">
+                    <div>
+                        <h3>To get the information of a particular userName</h3>
+                        <div>
+                            <h4>Method: POST</h4>
+                            <h3>Endpoint: '/api/user/getuser'</h3>
+                        </div>
+                        <div>
+                            <h4>Body parameter(in JSON)</h4>
+                            <div>
+                                <ul>
+                                    <li>userName</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my">
+                    <div>
+                        <h3>To get the information of all user</h3>
+                        <div>
+                            <h4>Method: GET</h4>
+                            <h3>Endpoint: '/api/user/getall'</h3>
+                        </div>
+                        <div>
+                            <h4>Body parameter(in JSON)</h4>
+                            <div>
+                               None
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my">
+                    <div>
+                        <h3>To update info of a particular userName</h3>
+                        <div>
+                            <h4>Method: PUT</h4>
+                            <h3>Endpoint: '/api/user/update/{userName}'</h3>
+                        </div>
+                        <div>
+                            <h4>Body parameter(in JSON)</h4>
+                            <div>
+                                <ul>
+                                    <li>name</li>
+                                    <li>email</li>
+                                    <li>userName</li>
+                                    <li>phone</li>
+                                    <li>city</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my">
+                    <div>
+                        <h3>To remove info of a particular userName</h3>
+                        <div>
+                            <h4>Method: DELETE</h4>
+                            <h3>Endpoint: '/api/user/remove/{userName}'</h3>
+                        </div>
+                        <div>
+                            <h4>Body parameter(in JSON)</h4>
+                            <div>
+                                None
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card my">
+                    <div>
+                        <h3>To remove all entries</h3>
+                        <div>
+                            <h4>Method: DELETE</h4>
+                            <h3>Endpoint: '/api/user/removeall'</h3>
+                        </div>
+                        <div>
+                            <h4>Body parameter(in JSON)</h4>
+                            <div>
+                                None
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
