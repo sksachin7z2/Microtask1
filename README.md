@@ -2,7 +2,8 @@
 # Welcome, This API is build for MicroTask 1
 
 # This API is used to store, get, update and delete user information in a dummy/temporary database
-
+The api is live 
+https://p80o5n.deta.dev/
 # To store the user info in dummy db
 
 Method: POST
