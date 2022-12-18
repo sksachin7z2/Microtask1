@@ -3,7 +3,9 @@ const router=require('express').Router();
 
 router.post('/usercreate',async(req,res)=>{
     const {userName,name,email,phone,city}=req.body;
-    
+    if(!userName){
+        return res.send("userName is required")
+    }
     try {
        const isexist=db.find(e=>e.userName==userName);
       
