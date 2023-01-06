@@ -17,6 +17,22 @@ Body parameter(in JSON)
 4. phone
 5. city
 
+# Example
+
+{
+
+  "name" : "sachin",
+  
+  "email" : "abctest@gmail.com",
+  
+  "userName" : "sachin123",
+  
+  "phone" : 8564390543,
+  
+  "city" : "guwahati"
+  
+}
+
 # To get the information of a particular userName
 
 Method: POST
