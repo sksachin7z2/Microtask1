@@ -11,7 +11,7 @@ app.get('/',async(req,res)=>{
 })
 app.use('/api/user',require('./users/users'));
 
-// app.listen(PORT,()=>{
-//     console.log(`server is listening at ${PORT} `);
-// })
-module.exports = app;
+app.listen(PORT,()=>{
+    console.log(`server is listening at ${PORT} `);
+})
+// module.exports = app;
